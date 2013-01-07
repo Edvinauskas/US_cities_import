@@ -2,7 +2,7 @@ Imports all cities in the US, including long. lat. postal code.
 Creates three tables 'city', 'county', 'state'. I also included a db dump,
 will update the dump every time i change the script
 
-##TABLE -> FIELD NAME
+####TABLE -> FIELD NAME
 =============================================
 	state -> id
 		  -> name
@@ -20,4 +20,5 @@ will update the dump every time i change the script
 		 -> state_id
 		 -> county_id
 
-	>> GeoNames data dump is here: http://download.geonames.org/export/dump/
+* Data dump downloaded from
+	>>http://download.geonames.org/export/dump/
