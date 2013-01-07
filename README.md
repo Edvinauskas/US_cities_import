@@ -20,5 +20,6 @@ will update the dump every time i change the script
 		 -> state_id
 		 -> county_id
 
-* Data dump downloaded from:
-	> http://download.geonames.org/export/dump/
+* Data dump downloaded from
+
+	http://download.geonames.org/export/dump/
