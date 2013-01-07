@@ -4,7 +4,7 @@ import sys
 host = "localhost"
 username = "root"
 password = "toor"
-database = "GeoName_US"
+database = "GeoNames_US"
 city_list_file = "US.txt"
 
 db_conn = MySQLdb.connect(host, username, password)

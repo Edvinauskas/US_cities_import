@@ -1,4 +1,28 @@
-Readme for GeoNames.org Postal Code files :
+<p>Imports all cities in the US, including long. lat. postal code. 
+Creates three tables 'city', 'county', 'state'. I also included a db dump,
+will update the dump every time i change the script</p> 
+
+<pre>
+<h3>TABLE -> FIELD NAME</h3>
+=============================================
+state -> id
+	  -> name
+	  -> abbr
+
+county -> id
+	   -> county (will rename this to 'name')
+	   -> state_id 
+
+city -> id
+	 -> name
+	 -> postal_code
+	 -> latitude
+	 -> longitude
+	 -> state_id
+	 -> county_id
+</pre>
+
+<sub><sub>Readme for GeoNames.org Postal Code files :
 
 This work is licensed under a Creative Commons Attribution 3.0 License.
 This means you can use the dump as long as you give credit to geonames (a link on your website to www.geonames.org is ok)
@@ -38,3 +62,4 @@ admin code3       : 3. order subdivision (community) varchar(20)
 latitude          : estimated latitude (wgs84)
 longitude         : estimated longitude (wgs84)
 accuracy          : accuracy of lat/lng from 1=estimated to 6=centroid
+<sub><sub>
